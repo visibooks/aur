@@ -3,6 +3,7 @@ Type=Application
 Name=VisiBooks
 Comment=Native accounting workbench
 Exec=visibooks
+Icon=visibooks
 Terminal=false
 Categories=Office;Finance;
 StartupWMClass=visibooks
