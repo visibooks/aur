@@ -12,8 +12,8 @@ depends=('gtk3' 'libxkbcommon-x11' 'wayland' 'vulkan-icd-loader' 'fontconfig')
 options=('!strip')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/visibooks/visibooks-releases/releases/download/v$pkgver/VisiBooks-linux-x86_64.tar.gz"
         'visibooks.desktop')
-sha256sums=('@LINUX_TARBALL_SHA256@'
-            '@DESKTOP_SHA256@')
+sha256sums=('76c651907f7d7333c7d673cb6b8be34dbf434c59ad5f2b6804dd966d94cbba80'
+            '8f8e3220169cdb792e918737c41d72cb7e3a87c8c6884d58d1a5522a8d55303f')
 
 package() {
     install -Dm755 "$srcdir/VisiBooks-linux-x86_64/visibooks" "$pkgdir/usr/bin/visibooks"
