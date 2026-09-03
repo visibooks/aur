@@ -1,6 +1,6 @@
 # Maintainer: Robert O'Neill <hello@visibooks.app>
 pkgname=visibooks-bin
-pkgver=0.2.0
+pkgver=0.2.1
 pkgrel=1
 pkgdesc="Native accounting workbench for VisiBooks — agent proposal review, journal, reconciliation (official binary)"
 arch=('x86_64')
@@ -13,7 +13,7 @@ options=('!strip')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/visibooks/visibooks-releases/releases/download/v$pkgver/VisiBooks-linux-x86_64.tar.gz"
         'visibooks.desktop'
         'visibooks.png')
-sha256sums=('76c651907f7d7333c7d673cb6b8be34dbf434c59ad5f2b6804dd966d94cbba80'
+sha256sums=('9873f4d27efabf04851ea9fb6a5b5be7e75230fa5408bf8bbc2d6c14db0fd92e'
             '7b21f23b4d747f24f2dbf18496270dbdc2aa300b33f0d6ec12c1efab9e1efdfa'
             '7182e90b2adca2cb0f358dd42cd2facbca67a6d651aab5b4361878598b29dfa7')
 
